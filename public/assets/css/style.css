@@ -1,0 +1,68 @@
+*{
+    font-size: 13px;
+}
+.user-icons{
+    font-size: 14px;
+    padding: 5px;
+}
+
+.extra-padding{
+    padding:10px;
+}
+
+.has-error input{
+    border: 1px solid red !important
+}
+.help-block{
+    color: red;
+}
+.card-body{
+    cursor: pointer;
+}
+
+.loader-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 58px;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px;
+}
+
+.loader {
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #999;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+.remove-contact{
+    float: right;
+    top: 0px;
+    position: absolute;
+    right: 7px;
+}
+.update-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 30px;
+}
